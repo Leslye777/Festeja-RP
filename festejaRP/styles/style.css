@@ -1,0 +1,336 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+textarea:focus, input:focus, select:focus, button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+input{
+	border:none;
+}
+button{
+	border: none;
+}
+
+/*#CCBF79  223828*/
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.orange600 { color: #FB8C00; }
+
+.material-icons.black30{ color: black;}
+
+body{
+	/*: linear-gradient(to bottom, #FFF5A6 30%, #223828 70%);*/
+	background: #DDDDDD;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.main_wrapper{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+.header_wrapper{
+	width: auto;
+	height: 180px; 
+	margin: auto;
+	padding: 20px;
+	padding-left: 0px;
+	margin-left: 25px;
+}
+
+.header_wrapper img{
+	margin-top:10px;
+	margin-left: 0;
+	height: 160px;
+	width: auto;
+}
+
+#icones{
+	height:150px;
+	width: 50px;
+	float: right;
+	padding-right: 8px;
+	padding-top: 15px;
+}
+
+#icones table{
+	border: none;
+	width: 55px;
+}
+
+
+#icones td{
+	border-radius: 25px 0 25px 0;
+	text-align: center;
+	height: 50px;
+}
+
+.menubar{
+	width:auto;
+	height:50px;
+	background:black;
+	padding-left: 20px;
+}
+
+#menu{
+	padding: 0;
+	margin: 0;
+	line-height: 45px;
+	float: left;
+}
+
+
+#menu a{
+	color: #850844;
+	text-decoration: none;
+	padding: 9px;
+	font-size: 21px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#menu a:hover{
+	background-color: transparent;
+	border-bottom: solid 5px #850844;
+	color: #DDDDDD;
+}
+
+#form{
+	float:right;
+	padding-right: 4px;
+	line-height:40px;
+	display: inline;
+}
+
+#form form{
+	background-color: white;
+	margin: 10px;
+	height: 30px;
+	border-radius: 30px;
+}
+
+#form input{
+	border: none;
+	float: left;
+	width: 280px;
+	margin-left: 12px;
+	margin-top: 6px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.content_wrapper{
+	width:auto;
+	height:900px;
+	margin: auto;
+	background: white;
+}
+
+#content_area{
+	width:950px;
+	float:right;
+	background: white;
+	padding: 20px;
+}
+
+#sidebar{
+	width:350px;
+	height: 900px;
+	background: grey;
+	float: right;
+	padding: 0;
+}
+
+#sidebar_title{
+	color: white;
+	font-size: 22px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	padding: 8px;
+	text-align: center;	
+	background: grey;
+}
+
+#cats{
+	text-align: center;
+}
+
+#cats li{
+	width: 350px;
+	list-style: none;
+	background-color:transparent;
+}
+
+#cats a{
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	display: block;
+	
+}
+
+#cats a:hover{
+	color: black;
+	background-color: white;
+	width: 338px;
+	border-right: solid 6px #ce9cb4;
+	border-left: solid 6px #ce9cb4;
+}
+
+#forn{
+	text-align: center;
+}
+
+#forn li{
+	width: 350px;
+	list-style: none;
+	background-color:transparent;
+}
+
+#forn a{
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	display: block;
+	
+}
+
+#forn a:hover{
+	color: black;
+	background-color: white;
+	width: 338px;
+	border-right: solid 6px #9d3969;
+	border-left: solid 6px #9d3969;
+}
+
+.hidden{
+  display: none;
+}
+
+#ordenacao a{
+	text-decoration: none;
+	color: #9d3969;
+	background-color: #e6cdd9;
+	text-transform: uppercase;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+#produtos_box{
+	width: 950px;
+	text-align: center;
+}
+
+#produto_unico{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+#produto_unico img{
+	width: 270px;
+	height: 270px;
+}
+
+/*Dropdown dos produtos*/
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    padding-top: 8px;
+    font-size: 16px;
+    border: none;
+	width: 234px;
+    cursor: pointer;
+	text-align: left;
+}
+
+.dropbtn:hover {
+    text-shadow: 2px 2px 2px grey;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+	border-bottom: solid 4px #dab4c6;
+	padding-top: 8px;
+	padding-bottom: 8px;
+    background-color: #f9f9f9;
+    min-width: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+#footer{
+	width: auto;
+	background:black;
+	height:100px;
+	clear: both;
+}
+
+#footer h6{
+	text-align: center;
+	color: white;
+	padding-bottom: 1px;
+}
+
+/*Conteúdo de páginas especificas*/
+#tabela_img{
+	background-image:url('login.png');
+	background-color: skyblue;
+	width:450px;
+	height:500px; 
+}
